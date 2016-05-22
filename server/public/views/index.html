@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Honey-Due&copy;</title>
+  <link rel="stylesheet" href="../styles/stylesheet.css" />
+  <script src="../vendor/jquery.min.js"></script>
+  <script src="../scripts/clientapp.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Honey-Due<sup>&copy;</sup></h1>
+  </header>
+  <div class="form-container">
+    <div id="center-container">
+      <table id="center-table">
+        <form id="task-enter-form">
+          <tr>
+            <th>
+              <label for="honeyName">Honey</label>
+            </th>
+            <th>
+              <label for="taskName">New Task</label>
+            </th>
+            <th>
+              <label for="goalDate">Due Date</label>
+            </th>
+            <th>
+              <label for="goalDate">Notes</label>
+            </th>
+            <th>
+              <label></label>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <select id="honey-drop-down" name="honeyName" class="taskField">
+              </select>
+            </td>
+            <td>
+              <input type="text" id="taskName" class="taskField" name="taskName" />
+            </td>
+            <td>
+              <input type="date" id="goalDate" class="taskField" name="goalDate" />
+            </td>
+            <td>
+              <input type="text" id="taskDescription" class="taskField" name="taskDescription" />
+            </td>
+            <td>
+              <button id="submit">Submit</button>
+            </td>
+          </tr>
+      </table>
+      </form>
+    </div>
+  </div>
+
+  <div class="table-container">
+    <table id="task-table-container">
+    </table>
+  </div>
+
+</body>
+
+</html>
