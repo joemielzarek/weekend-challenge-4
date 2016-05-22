@@ -1,0 +1,131 @@
+body {
+  font-family: helvetica;
+}
+
+header {
+  margin: 0px 50px 20px 50px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.form-container {
+  font-size: 12px;
+  background-color: white;
+  padding: 10px;
+  margin: 0px 50px 0px 50px;
+  border-radius: 10px;
+}
+
+.table-container {
+  font-size: 12px;
+  background-color: #FFA61E;
+  padding: 10px;
+  margin: 20px 50px 20px 50px;
+  border-radius: 10px;
+}
+
+#center-container {
+  text-align: center;
+}
+
+.taskField {
+  margin-right: 40px;
+}
+
+h1 {
+  color: #FFA61E;
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+sup {
+  font-size: 10px;
+  vertical-align: super;
+}
+
+#center-table{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#task-table-container {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.form-container th {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  color: gray;
+}
+
+.form-container td {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  width: 100px;
+}
+
+th {
+  padding: 8px;
+  font-size: 18px;
+  color: white;
+}
+
+td {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#taskName {
+  padding-right: 10px;
+}
+
+input {
+  margin: 1px;
+  width: 150px
+}
+
+select {
+  margin: 1px;
+  height: 20px;
+  width: 150px;
+}
+
+button {
+    background-color: #FFA61E;
+    border: 1px solid white;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: white;
+    color: #FFA61E;
+}
+
+#submit {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.false {
+  color: black;
+}
+
+.true {
+  color: gray;
+  text-decoration: line-through;
+}
