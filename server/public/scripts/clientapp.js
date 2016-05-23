@@ -48,16 +48,20 @@ function getHoney(honey) {
 function deleteTask(event) {
   event.preventDefault();
 
+   if (confirm("Are you sure you want to delete this task?")) {
+
+
   var deletedTask = $(this).parent().parent().data('taskId');
 
-  $.ajax ({
-    type: 'DELETE',
-    url: '/tasks/' + deletedTask,
-    success: function (data) {
-      deleteTaskResponse();
-      appendTasks();
-    }
-  });
+    $.ajax ({
+      type: 'DELETE',
+      url: '/tasks/' + deletedTask,
+      success: function (data) {
+        deleteTaskResponse();
+        appendTasks();
+      }
+    });
+   }
 }
 
 function completeTask(event) {
