@@ -11,7 +11,6 @@ if(process.env.DATABASE_URL != undefined) {
     connectionString = 'postgres://localhost:5432/muthree';
 }
 
-
 router.get('/', function (req, res) {
   pg.connect(connectionString, function(err, client, done) {
     if (err) {

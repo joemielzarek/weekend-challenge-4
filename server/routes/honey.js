@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var pg = require('pg');
+<<<<<<< HEAD
 var connectionString;
 
 
@@ -16,6 +17,9 @@ if(process.env.DATABASE_URL != undefined) {
 
 
 
+=======
+var connectionString = 'postgres://localhost:5432/muthree';
+>>>>>>> cc577296ed4a78102b6b971c14fc92efcce4b41e
 
 router.get('/', function (req, res) {
 
